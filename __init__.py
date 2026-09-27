@@ -1,1 +1,0 @@
-"""Source package for the Road Accident Severity Prediction IDP project."""
