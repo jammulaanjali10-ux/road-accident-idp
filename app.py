@@ -120,7 +120,8 @@ def section_header(icon, title, subtitle=None):
     </div>
     """
     if subtitle:
-        html += f"<p class="section-subtitle">{subtitle}</p>"
+        # Fixed the quotes here: using single quotes on the outside
+        html += f'<p class="section-subtitle">{subtitle}</p>'
     st.markdown(html, unsafe_allow_html=True)
 
 
