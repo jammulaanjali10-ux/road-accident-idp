@@ -1,0 +1,134 @@
+/* ============================================================
+   Road Accident Severity Prediction - Custom Styles
+   ============================================================ */
+
+/* ---------- Header ---------- */
+.app-header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 14px;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 16px rgba(30, 60, 114, 0.25);
+}
+.app-header h1 {
+    margin: 0 0 8px 0;
+    font-size: 2.1rem;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+.app-header h3 {
+    margin: 0 0 12px 0;
+    font-weight: 400;
+    opacity: 0.92;
+    font-size: 1.1rem;
+}
+.app-header p {
+    margin: 0;
+    opacity: 0.88;
+    font-size: 0.95rem;
+}
+
+/* ---------- Section headers ---------- */
+.section-header h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #1e3c72;
+    margin: 0 0 4px 0;
+    border-bottom: 2px solid #e3e8f0;
+    padding-bottom: 6px;
+}
+.section-subtitle {
+    color: #6b7280;
+    font-size: 0.88rem;
+    margin: 4px 0 12px 0;
+}
+
+/* ---------- Input container ---------- */
+.input-container {
+    background: #ffffff;
+    padding: 22px 26px;
+    border-radius: 12px;
+    border: 1px solid #e3e8f0;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+/* ---------- Section dividers ---------- */
+.section-divider {
+    border: none;
+    border-top: 1px solid #eef2f7;
+    margin: 22px 0 18px 0;
+}
+
+/* ---------- Result container ---------- */
+.result-container {
+    background: #ffffff;
+    padding: 24px 26px;
+    border-radius: 12px;
+    border: 1px solid #e3e8f0;
+    margin-top: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+/* ---------- Prediction card ---------- */
+.prediction-card {
+    background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%);
+    padding: 24px 28px;
+    border-radius: 12px;
+    margin: 10px 0 22px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+.prediction-label {
+    font-size: 0.95rem;
+    color: #4b5563;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 6px;
+}
+.prediction-value {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+/* ---------- Streamlit form submit button ---------- */
+.stButton > button[kind="primary"] {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    padding: 12px 18px !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.stButton > button[kind="primary"]:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(30, 60, 114, 0.35);
+}
+
+/* ---------- Metric cards ---------- */
+[data-testid="stMetric"] {
+    background: #f8fafc;
+    border: 1px solid #e3e8f0;
+    border-radius: 8px;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+/* ---------- Selectbox / number input polish ---------- */
+.stSelectbox label,
+.stNumberInput label,
+.stTimeInput label {
+    font-weight: 500;
+    color: #374151;
+    font-size: 0.9rem;
+}
+
+/* ---------- Sidebar polish ---------- */
+section[data-testid="stSidebar"] {
+    background: #f8fafc;
+}
